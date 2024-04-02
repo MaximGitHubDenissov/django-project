@@ -1,0 +1,82 @@
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 12
+"GET /about/ HTTP/1.1" 200 8
+C:\Users\77017\PycharmProjects\django-project\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Index page accessed
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+AttributeError: 'str' object has no attribute 'get'
+"GET / HTTP/1.1" 500 65146
+C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 113
+C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 2888
+C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 2555
+Not Found: /docs
+"GET /docs HTTP/1.1" 404 2420
+About us page accessed
+"GET /about/ HTTP/1.1" 200 8
+C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+About us page accessed
+"GET /about/ HTTP/1.1" 200 2709
+Index page accessed
+"GET / HTTP/1.1" 200 2555
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 2555
+About us page accessed
+"GET /about/ HTTP/1.1" 200 2709
+Not Found: /docs
+"GET /docs HTTP/1.1" 404 2420
+About us page accessed
+"GET /about/ HTTP/1.1" 200 2709
+C:\Users\77017\PycharmProjects\django-project\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 2555
+About us page accessed
+"GET /about/ HTTP/1.1" 200 2709
+C:\Users\77017\PycharmProjects\django-project\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-02 17:17:13,457 autoreload 22416 9652 Watching for file changes with StatReloader
+INFO 2024-04-02 17:17:32,612 autoreload 22416 9652 C:\Users\77017\PycharmProjects\django-project\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-02 17:17:33,160 autoreload 7660 19428 Watching for file changes with StatReloader
+INFO 2024-04-02 17:17:43,784 views 7660 12520 Index page accessed
+INFO 2024-04-02 17:17:43,785 basehttp 7660 12520 "GET / HTTP/1.1" 200 2555
+INFO 2024-04-02 17:17:46,823 views 7660 12520 About us page accessed
+INFO 2024-04-02 17:17:46,825 basehttp 7660 12520 "GET /about/ HTTP/1.1" 200 2709
+INFO 2024-04-02 17:19:04,802 autoreload 7660 19428 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-02 17:19:05,454 autoreload 1540 19796 Watching for file changes with StatReloader
+INFO 2024-04-02 17:19:07,857 views 1540 1756 About us page accessed
+INFO 2024-04-02 17:19:07,858 basehttp 1540 1756 "GET /about/ HTTP/1.1" 200 2709
+INFO 2024-04-02 17:19:10,687 views 1540 1756 Index page accessed
+INFO 2024-04-02 17:19:10,688 basehttp 1540 1756 "GET / HTTP/1.1" 200 2555
+INFO 2024-04-02 17:25:19,734 autoreload 17044 2912 Watching for file changes with StatReloader
+INFO 2024-04-02 17:27:08,435 autoreload 17044 2912 C:\Users\77017\PycharmProjects\django-project\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-02 17:27:08,996 autoreload 1940 21896 Watching for file changes with StatReloader
+INFO 2024-04-02 17:27:16,084 autoreload 21088 23476 Watching for file changes with StatReloader
+INFO 2024-04-02 17:27:18,207 views 21088 7216 Index page accessed
+INFO 2024-04-02 17:27:18,208 basehttp 21088 7216 "GET / HTTP/1.1" 200 2555
+WARNING 2024-04-02 17:27:19,060 log 21088 7216 Not Found: /favicon.ico
+WARNING 2024-04-02 17:27:19,060 basehttp 21088 7216 "GET /favicon.ico HTTP/1.1" 404 2445
