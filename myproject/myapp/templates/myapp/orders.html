@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>orders</title>
+</head>
+<body>
+{% if orders %}
+{% for order, enrolls in orders.items %}
+<ul>
+    <li>
+        Заказ № {{order.pk}}<br>Дата заказа: {{order.date_ordered}}
+    </li>
+    {% for enroll in enrolls%}
+    <ul>
+        <li>{{enroll.product.name}} Количество {{enroll.quantity}}</li>
+    </ul>
+    {% endfor %}
+<hr>
+</ul>
+{% endfor %}
+{% else %}
+<p>Для этого клиента нет заказов!</p>
+{% endif %}
+
+
+</body>
+</html>

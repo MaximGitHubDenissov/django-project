@@ -1,7 +1,9 @@
-from django.shortcuts import render
+import datetime
 import logging
-
+from django.shortcuts import render
+from .models import Client, Order, Enrollment
 from django.http import HttpResponse
+from datetime import timedelta, datetime
 
 logger = logging.getLogger(__name__)
 
@@ -175,3 +177,35 @@ def about(request):
 
 
 # Create your views here.
+
+def get_orders_by_client(request, client_id, filter_name):
+    today = datetime.utcnow()
+    if filter_name == 'week':
+        start_date = today - timedelta(days=7)
+    elif filter_name == 'month':
+        start_date = today - timedelta(days=30)
+        print(start_date)
+    elif filter_name == 'year':
+        start_date = today - timedelta(days=365)
+        print(start_date)
+    else:
+        start_date = None
+
+    client = Client.objects.filter(pk=client_id).first()
+    if start_date:
+        orders = Order.objects.filter(client=client, date_ordered__range=[start_date, today])
+        print(orders)
+    else:
+        orders = Order.objects.filter(client=client).all()
+    enrolls_res = {}
+    for order in orders:
+        enrolls = Enrollment.objects.filter(order=order).all()
+        enrolls_res[order] = enrolls
+
+
+    context = {'orders': enrolls_res}
+    return render(request, 'myapp/orders.html', context)
+
+
+def new_orders(request):
+    return render(request, 'myapp/new_orders.html')

@@ -80,3 +80,580 @@ INFO 2024-04-02 17:27:18,207 views 21088 7216 Index page accessed
 INFO 2024-04-02 17:27:18,208 basehttp 21088 7216 "GET / HTTP/1.1" 200 2555
 WARNING 2024-04-02 17:27:19,060 log 21088 7216 Not Found: /favicon.ico
 WARNING 2024-04-02 17:27:19,060 basehttp 21088 7216 "GET /favicon.ico HTTP/1.1" 404 2445
+INFO 2024-04-07 15:11:02,813 autoreload 18384 21972 Watching for file changes with StatReloader
+INFO 2024-04-07 15:11:24,095 autoreload 18384 21972 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\urls.py changed, reloading.
+INFO 2024-04-07 15:11:24,746 autoreload 12040 6464 Watching for file changes with StatReloader
+INFO 2024-04-07 15:11:29,186 views 12040 4796 Index page accessed
+INFO 2024-04-07 15:11:29,189 basehttp 12040 4796 "GET / HTTP/1.1" 200 2555
+WARNING 2024-04-07 15:11:29,901 log 12040 4796 Not Found: /favicon.ico
+WARNING 2024-04-07 15:11:29,902 basehttp 12040 4796 "GET /favicon.ico HTTP/1.1" 404 2624
+WARNING 2024-04-07 15:11:37,405 log 12040 19092 Not Found: /orders
+WARNING 2024-04-07 15:11:37,406 basehttp 12040 19092 "GET /orders HTTP/1.1" 404 2609
+ERROR 2024-04-07 15:11:44,721 log 12040 5412 Internal Server Error: /orders/1
+Traceback (most recent call last):
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_orders_by_client() got an unexpected keyword argument 'id'
+ERROR 2024-04-07 15:11:44,724 basehttp 12040 5412 "GET /orders/1 HTTP/1.1" 500 62445
+INFO 2024-04-07 15:15:07,257 autoreload 12040 6464 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\urls.py changed, reloading.
+INFO 2024-04-07 15:15:08,268 autoreload 16376 10392 Watching for file changes with StatReloader
+ERROR 2024-04-07 15:15:09,431 log 16376 16872 Internal Server Error: /orders/1
+Traceback (most recent call last):
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_orders_by_client() got an unexpected keyword argument 'clients_id'
+ERROR 2024-04-07 15:15:09,434 basehttp 16376 16872 "GET /orders/1 HTTP/1.1" 500 62622
+INFO 2024-04-07 15:18:06,638 autoreload 16376 10392 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\urls.py changed, reloading.
+INFO 2024-04-07 15:18:07,338 autoreload 10304 928 Watching for file changes with StatReloader
+INFO 2024-04-07 15:18:07,754 basehttp 10304 18016 "GET /orders/1 HTTP/1.1" 200 175
+INFO 2024-04-07 15:23:26,643 autoreload 10304 928 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 15:23:27,301 autoreload 20772 23764 Watching for file changes with StatReloader
+INFO 2024-04-07 15:32:54,793 autoreload 20772 23764 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 15:32:55,866 autoreload 4748 14020 Watching for file changes with StatReloader
+INFO 2024-04-07 15:37:33,638 autoreload 4748 14020 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 15:37:34,701 autoreload 23952 928 Watching for file changes with StatReloader
+ERROR 2024-04-07 15:42:00,140 log 23952 8728 Internal Server Error: /orders/1
+Traceback (most recent call last):
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py", line 184, in get_orders_by_client
+    enrolls = Enrollment(order=order.pk)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 284, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Enrollment.order" must be a "Order" instance.
+ERROR 2024-04-07 15:42:00,143 basehttp 23952 8728 "GET /orders/1 HTTP/1.1" 500 77175
+INFO 2024-04-07 15:42:26,691 autoreload 23952 928 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 15:42:27,650 autoreload 3080 10820 Watching for file changes with StatReloader
+ERROR 2024-04-07 15:42:28,418 log 3080 17720 Internal Server Error: /orders/1
+Traceback (most recent call last):
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py", line 189, in get_orders_by_client
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 18: 'endif'. Did you forget to register or load this tag?
+ERROR 2024-04-07 15:42:28,424 basehttp 3080 17720 "GET /orders/1 HTTP/1.1" 500 134213
+INFO 2024-04-07 15:43:13,263 basehttp 3080 20336 "GET /orders/1 HTTP/1.1" 200 228
+INFO 2024-04-07 15:44:24,198 basehttp 3080 10264 "GET /orders/1 HTTP/1.1" 200 229
+INFO 2024-04-07 15:45:00,847 autoreload 3080 10820 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 15:45:01,541 autoreload 8336 7424 Watching for file changes with StatReloader
+INFO 2024-04-07 15:45:01,995 basehttp 8336 4040 "GET /orders/1 HTTP/1.1" 200 229
+INFO 2024-04-07 15:47:10,748 autoreload 8336 7424 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 15:47:11,395 autoreload 11260 9892 Watching for file changes with StatReloader
+INFO 2024-04-07 15:47:11,652 basehttp 11260 23684 "GET /orders/1 HTTP/1.1" 200 229
+INFO 2024-04-07 15:47:52,375 autoreload 11260 9892 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 15:47:53,078 autoreload 6876 24316 Watching for file changes with StatReloader
+INFO 2024-04-07 15:47:53,227 basehttp 6876 11876 "GET /orders/1 HTTP/1.1" 200 225
+INFO 2024-04-07 15:49:05,253 autoreload 6876 24316 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 15:49:05,887 autoreload 3040 4124 Watching for file changes with StatReloader
+INFO 2024-04-07 15:49:06,157 basehttp 3040 2268 "GET /orders/1 HTTP/1.1" 200 225
+INFO 2024-04-07 15:51:01,787 autoreload 3040 4124 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 15:51:02,498 autoreload 25304 19548 Watching for file changes with StatReloader
+INFO 2024-04-07 15:51:02,762 basehttp 25304 4180 "GET /orders/1 HTTP/1.1" 200 225
+ERROR 2024-04-07 15:52:32,047 log 25304 4180 Internal Server Error: /orders/1
+Traceback (most recent call last):
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py", line 190, in get_orders_by_client
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\defaulttags.py", line 961, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\defaulttags.py", line 860, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'orders.items()'
+ERROR 2024-04-07 15:52:32,051 basehttp 25304 4180 "GET /orders/1 HTTP/1.1" 500 165304
+INFO 2024-04-07 15:56:30,323 basehttp 25304 21860 "GET /orders/1 HTTP/1.1" 200 139
+INFO 2024-04-07 15:56:33,903 basehttp 25304 21860 "GET /orders/1 HTTP/1.1" 200 139
+INFO 2024-04-07 15:56:34,764 basehttp 25304 21860 "GET /orders/1 HTTP/1.1" 200 139
+INFO 2024-04-07 15:57:46,642 basehttp 25304 21860 "GET /orders/1 HTTP/1.1" 200 139
+INFO 2024-04-07 15:57:47,583 basehttp 25304 21860 "GET /orders/1 HTTP/1.1" 200 139
+INFO 2024-04-07 15:57:48,273 basehttp 25304 21860 "GET /orders/1 HTTP/1.1" 200 139
+INFO 2024-04-07 15:57:48,653 basehttp 25304 21860 "GET /orders/1 HTTP/1.1" 200 139
+INFO 2024-04-07 15:57:48,830 basehttp 25304 21860 "GET /orders/1 HTTP/1.1" 200 139
+INFO 2024-04-07 15:57:49,000 basehttp 25304 21860 "GET /orders/1 HTTP/1.1" 200 139
+INFO 2024-04-07 15:58:33,181 basehttp 25304 13816 "GET /orders/1 HTTP/1.1" 200 139
+INFO 2024-04-07 15:58:34,025 basehttp 25304 13816 "GET /orders/1 HTTP/1.1" 200 139
+INFO 2024-04-07 15:58:34,587 basehttp 25304 13816 "GET /orders/1 HTTP/1.1" 200 139
+ERROR 2024-04-07 16:05:21,138 log 25304 6600 Internal Server Error: /orders/1
+Traceback (most recent call last):
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py", line 190, in get_orders_by_client
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\defaulttags.py", line 230, in render
+    raise ValueError(
+ValueError: Need 2 values to unpack in for loop; got 1. 
+ERROR 2024-04-07 16:05:21,142 basehttp 25304 6600 "GET /orders/1 HTTP/1.1" 500 128283
+INFO 2024-04-07 16:07:38,125 basehttp 25304 13836 "GET /orders/1 HTTP/1.1" 200 139
+INFO 2024-04-07 16:13:14,841 basehttp 25304 324 "GET /orders/1 HTTP/1.1" 200 135
+INFO 2024-04-07 16:13:15,690 basehttp 25304 21756 "GET /orders/1 HTTP/1.1" 200 135
+INFO 2024-04-07 16:13:16,267 basehttp 25304 21756 "GET /orders/1 HTTP/1.1" 200 135
+INFO 2024-04-07 16:13:16,659 basehttp 25304 21756 "GET /orders/1 HTTP/1.1" 200 135
+INFO 2024-04-07 16:14:07,635 basehttp 25304 24036 "GET /orders/1 HTTP/1.1" 200 135
+INFO 2024-04-07 16:14:08,570 basehttp 25304 24036 "GET /orders/1 HTTP/1.1" 200 135
+INFO 2024-04-07 16:14:09,179 basehttp 25304 24036 "GET /orders/1 HTTP/1.1" 200 135
+INFO 2024-04-07 16:14:17,126 basehttp 25304 24036 "GET /orders/2 HTTP/1.1" 200 172
+INFO 2024-04-07 16:14:28,287 basehttp 25304 12864 "GET /orders/1 HTTP/1.1" 200 135
+INFO 2024-04-07 16:16:04,300 basehttp 25304 21344 "GET /orders/1 HTTP/1.1" 200 153
+INFO 2024-04-07 16:18:22,197 basehttp 25304 16248 "GET /orders/1 HTTP/1.1" 200 171
+ERROR 2024-04-07 16:21:51,748 log 25304 7512 Internal Server Error: /orders/1
+Traceback (most recent call last):
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py", line 190, in get_orders_by_client
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\defaulttags.py", line 961, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\defaulttags.py", line 860, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[order]' from 'orders[order]'
+ERROR 2024-04-07 16:21:51,752 basehttp 25304 7512 "GET /orders/1 HTTP/1.1" 500 180134
+ERROR 2024-04-07 16:24:12,108 log 25304 6604 Internal Server Error: /orders/1
+Traceback (most recent call last):
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py", line 190, in get_orders_by_client
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\defaulttags.py", line 961, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 19: 'else', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR 2024-04-07 16:24:12,110 basehttp 25304 6604 "GET /orders/1 HTTP/1.1" 500 166732
+INFO 2024-04-07 16:24:57,773 basehttp 25304 15968 "GET /orders/1 HTTP/1.1" 200 169
+INFO 2024-04-07 16:24:59,619 basehttp 25304 15968 "GET /orders/1 HTTP/1.1" 200 169
+INFO 2024-04-07 16:25:00,040 basehttp 25304 15968 "GET /orders/1 HTTP/1.1" 200 169
+INFO 2024-04-07 16:25:31,734 basehttp 25304 25052 "GET /orders/1 HTTP/1.1" 200 169
+INFO 2024-04-07 16:25:33,097 basehttp 25304 25052 "GET /orders/1 HTTP/1.1" 200 169
+INFO 2024-04-07 16:25:33,866 basehttp 25304 25052 "GET /orders/1 HTTP/1.1" 200 169
+INFO 2024-04-07 16:25:34,413 basehttp 25304 25052 "GET /orders/1 HTTP/1.1" 200 169
+INFO 2024-04-07 16:28:50,916 basehttp 25304 24504 "GET /orders/1 HTTP/1.1" 200 128
+INFO 2024-04-07 16:28:51,615 basehttp 25304 21308 "GET /orders/1 HTTP/1.1" 200 128
+INFO 2024-04-07 16:29:55,947 autoreload 25304 19548 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 16:29:57,213 autoreload 17824 17172 Watching for file changes with StatReloader
+INFO 2024-04-07 16:29:58,238 basehttp 17824 22500 "GET /orders/1 HTTP/1.1" 200 128
+INFO 2024-04-07 16:29:59,276 basehttp 17824 22500 "GET /orders/1 HTTP/1.1" 200 128
+ERROR 2024-04-07 16:31:13,486 log 17824 25064 Internal Server Error: /orders/1
+Traceback (most recent call last):
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py", line 193, in get_orders_by_client
+    return render(request, 'myapp/orders.html', context)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\defaulttags.py", line 961, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\defaulttags.py", line 840, in do_for
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'for' statements should have at least four words: for order orders
+ERROR 2024-04-07 16:31:13,490 basehttp 17824 25064 "GET /orders/1 HTTP/1.1" 500 152479
+INFO 2024-04-07 16:31:38,860 basehttp 17824 24292 "GET /orders/1 HTTP/1.1" 200 351
+INFO 2024-04-07 16:33:03,658 autoreload 17824 17172 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 16:33:04,750 autoreload 13624 18988 Watching for file changes with StatReloader
+INFO 2024-04-07 16:33:05,095 basehttp 13624 17380 "GET /orders/1 HTTP/1.1" 200 191
+INFO 2024-04-07 16:33:57,599 basehttp 13624 16248 "GET /orders/1 HTTP/1.1" 200 379
+INFO 2024-04-07 16:34:35,485 basehttp 13624 25500 "GET /orders/1 HTTP/1.1" 200 379
+INFO 2024-04-07 16:34:58,409 basehttp 13624 13696 "GET /orders/1 HTTP/1.1" 200 316
+INFO 2024-04-07 16:35:11,785 basehttp 13624 16200 "GET /orders/2 HTTP/1.1" 200 165
+INFO 2024-04-07 16:35:15,362 basehttp 13624 6480 "GET /orders/1 HTTP/1.1" 200 316
+INFO 2024-04-07 16:36:57,473 basehttp 13624 1120 "GET /orders/1 HTTP/1.1" 200 374
+INFO 2024-04-07 16:49:05,408 basehttp 13624 17996 "GET /orders/2 HTTP/1.1" 200 190
+INFO 2024-04-07 16:49:08,797 basehttp 13624 16024 "GET /orders/3 HTTP/1.1" 200 190
+INFO 2024-04-07 16:49:19,538 basehttp 13624 13000 "GET /orders/4 HTTP/1.1" 200 190
+INFO 2024-04-07 16:49:27,736 basehttp 13624 13000 "GET /orders/1 HTTP/1.1" 200 374
+INFO 2024-04-07 16:55:25,516 autoreload 13624 18988 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 16:55:26,749 autoreload 15776 6224 Watching for file changes with StatReloader
+INFO 2024-04-07 16:55:37,484 basehttp 15776 12016 "GET /new_orders HTTP/1.1" 200 2086
+INFO 2024-04-07 17:03:15,633 basehttp 15776 25272 "GET /new_orders HTTP/1.1" 200 1688
+INFO 2024-04-07 17:03:18,831 basehttp 15776 25272 "GET /new_orders HTTP/1.1" 200 1688
+INFO 2024-04-07 17:03:47,479 basehttp 15776 20652 "GET /new_orders HTTP/1.1" 200 1688
+INFO 2024-04-07 17:03:49,420 basehttp 15776 20652 "GET /new_orders?filter=month HTTP/1.1" 200 1688
+INFO 2024-04-07 17:03:53,609 basehttp 15776 19368 "GET /new_orders?filter=year HTTP/1.1" 200 1688
+INFO 2024-04-07 17:04:01,222 basehttp 15776 18504 "GET /new_orders?filter=year HTTP/1.1" 200 1688
+INFO 2024-04-07 17:04:03,473 basehttp 15776 18504 "GET /new_orders?filter=month HTTP/1.1" 200 1688
+INFO 2024-04-07 17:04:05,576 basehttp 15776 18504 "GET /new_orders?filter=year HTTP/1.1" 200 1688
+INFO 2024-04-07 17:04:10,808 basehttp 15776 21196 "GET /new_orders?filter=month HTTP/1.1" 200 1688
+INFO 2024-04-07 17:04:16,115 basehttp 15776 21196 "GET /new_orders?filter=year HTTP/1.1" 200 1688
+INFO 2024-04-07 17:04:22,216 basehttp 15776 19064 "GET /new_orders?filter=month HTTP/1.1" 200 1688
+INFO 2024-04-07 17:04:32,549 basehttp 15776 16420 "GET /new_orders?filter=month HTTP/1.1" 200 1688
+INFO 2024-04-07 17:14:19,722 autoreload 15776 6224 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:14:20,835 autoreload 9384 11296 Watching for file changes with StatReloader
+INFO 2024-04-07 17:15:04,946 autoreload 9384 11296 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:15:05,607 autoreload 22700 21244 Watching for file changes with StatReloader
+ERROR 2024-04-07 17:15:06,462 log 22700 24376 Internal Server Error: /new_orders
+Traceback (most recent call last):
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py", line 196, in new_orders
+    return render(request, 'myapp/new_orders.html')
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/new_orders.html
+ERROR 2024-04-07 17:15:06,463 basehttp 22700 24376 "GET /new_orders?filter=month HTTP/1.1" 500 80207
+ERROR 2024-04-07 17:15:13,134 log 22700 22112 Internal Server Error: /orders/1
+Traceback (most recent call last):
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_orders_by_client() missing 1 required positional argument: 'filter'
+ERROR 2024-04-07 17:15:13,137 basehttp 22700 22112 "GET /orders/1 HTTP/1.1" 500 62488
+WARNING 2024-04-07 17:15:25,996 log 22700 7496 Not Found: /orders/1/filter
+WARNING 2024-04-07 17:15:25,997 basehttp 22700 7496 "GET /orders/1/filter HTTP/1.1" 404 2819
+INFO 2024-04-07 17:16:23,695 autoreload 22700 21244 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\urls.py changed, reloading.
+INFO 2024-04-07 17:16:24,359 autoreload 25476 16900 Watching for file changes with StatReloader
+INFO 2024-04-07 17:16:24,854 basehttp 25476 24848 "GET /orders/1/filter HTTP/1.1" 200 437
+INFO 2024-04-07 17:17:03,436 autoreload 25476 16900 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:17:04,046 autoreload 24808 9572 Watching for file changes with StatReloader
+INFO 2024-04-07 17:17:17,732 autoreload 24808 9572 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:17:18,269 autoreload 14948 24012 Watching for file changes with StatReloader
+INFO 2024-04-07 17:17:25,689 autoreload 14948 24012 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:17:26,246 autoreload 17868 8340 Watching for file changes with StatReloader
+INFO 2024-04-07 17:18:01,729 autoreload 17868 8340 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:18:02,306 autoreload 20336 4172 Watching for file changes with StatReloader
+INFO 2024-04-07 17:18:09,931 autoreload 20336 4172 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:18:10,496 autoreload 23656 25448 Watching for file changes with StatReloader
+INFO 2024-04-07 17:18:22,043 autoreload 23656 25448 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:18:22,610 autoreload 26300 18644 Watching for file changes with StatReloader
+INFO 2024-04-07 17:18:38,566 autoreload 26300 18644 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:18:39,172 autoreload 16444 19768 Watching for file changes with StatReloader
+INFO 2024-04-07 17:18:59,229 autoreload 16444 19768 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:18:59,878 autoreload 26356 20680 Watching for file changes with StatReloader
+INFO 2024-04-07 17:19:21,142 autoreload 26356 20680 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:19:21,707 autoreload 15460 3480 Watching for file changes with StatReloader
+INFO 2024-04-07 17:19:57,262 autoreload 15460 3480 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:19:57,885 autoreload 21292 12232 Watching for file changes with StatReloader
+INFO 2024-04-07 17:20:16,716 autoreload 21292 12232 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:20:17,300 autoreload 25540 12660 Watching for file changes with StatReloader
+INFO 2024-04-07 17:20:32,178 autoreload 25540 12660 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:20:32,780 autoreload 23668 25480 Watching for file changes with StatReloader
+INFO 2024-04-07 17:20:39,378 autoreload 23668 25480 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:20:39,988 autoreload 17688 24828 Watching for file changes with StatReloader
+INFO 2024-04-07 17:21:11,636 autoreload 17688 24828 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:21:12,225 autoreload 15136 2044 Watching for file changes with StatReloader
+INFO 2024-04-07 17:25:56,091 autoreload 15136 2044 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:25:57,149 autoreload 3484 25984 Watching for file changes with StatReloader
+INFO 2024-04-07 17:27:36,413 autoreload 3484 25984 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:27:37,375 autoreload 8852 20268 Watching for file changes with StatReloader
+INFO 2024-04-07 17:28:11,355 autoreload 8852 20268 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:28:12,072 autoreload 20812 22920 Watching for file changes with StatReloader
+INFO 2024-04-07 17:28:26,755 autoreload 20812 22920 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:28:27,362 autoreload 20936 22688 Watching for file changes with StatReloader
+INFO 2024-04-07 17:29:06,875 autoreload 20936 22688 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:29:07,415 autoreload 22956 24076 Watching for file changes with StatReloader
+INFO 2024-04-07 17:29:16,934 autoreload 22956 24076 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:29:17,504 autoreload 24972 3708 Watching for file changes with StatReloader
+INFO 2024-04-07 17:29:38,379 autoreload 24972 3708 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:29:38,966 autoreload 13380 7660 Watching for file changes with StatReloader
+INFO 2024-04-07 17:32:49,382 autoreload 13380 7660 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:32:50,124 autoreload 11700 10944 Watching for file changes with StatReloader
+ERROR 2024-04-07 17:32:51,525 log 11700 21092 Internal Server Error: /orders/1/filter
+Traceback (most recent call last):
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_orders_by_client() got an unexpected keyword argument 'filter'
+ERROR 2024-04-07 17:32:51,526 basehttp 11700 21092 "GET /orders/1/filter HTTP/1.1" 500 62708
+INFO 2024-04-07 17:33:14,984 autoreload 11700 10944 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\urls.py changed, reloading.
+INFO 2024-04-07 17:33:15,696 autoreload 4564 2380 Watching for file changes with StatReloader
+INFO 2024-04-07 17:33:15,870 basehttp 4564 19336 "GET /orders/1/filter HTTP/1.1" 200 437
+WARNING 2024-04-07 17:33:23,744 log 4564 15600 Not Found: /orders/1/filter/year
+WARNING 2024-04-07 17:33:23,746 basehttp 4564 15600 "GET /orders/1/filter/year HTTP/1.1" 404 2682
+ERROR 2024-04-07 17:33:39,818 log 4564 8220 Internal Server Error: /orders/1/year
+Traceback (most recent call last):
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\77017\PycharmProjects\django-project\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py", line 195, in get_orders_by_client
+    orders = orders.objects.filter(date_ordered__range=[start_date, today])
+AttributeError: 'QuerySet' object has no attribute 'objects'
+ERROR 2024-04-07 17:33:39,822 basehttp 4564 8220 "GET /orders/1/year HTTP/1.1" 500 67245
+INFO 2024-04-07 17:37:29,663 autoreload 4564 2380 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:37:30,962 autoreload 18924 22052 Watching for file changes with StatReloader
+INFO 2024-04-07 17:38:13,251 autoreload 18924 22052 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 17:38:14,076 autoreload 24592 24012 Watching for file changes with StatReloader
+INFO 2024-04-07 17:38:14,840 basehttp 24592 18536 "GET /orders/1/year HTTP/1.1" 200 437
+INFO 2024-04-07 17:38:17,481 basehttp 24592 18536 "GET /orders/1/year HTTP/1.1" 200 437
+INFO 2024-04-07 17:38:24,219 basehttp 24592 18536 "GET /orders/1/month HTTP/1.1" 200 437
+INFO 2024-04-07 17:47:09,687 autoreload 25708 23860 Watching for file changes with StatReloader
+INFO 2024-04-07 17:47:13,192 basehttp 25708 23432 "GET /orders/1/month HTTP/1.1" 200 745
+WARNING 2024-04-07 17:47:53,952 log 25708 14832 Not Found: /orders/1/
+WARNING 2024-04-07 17:47:53,952 basehttp 25708 14832 "GET /orders/1/ HTTP/1.1" 404 2649
+INFO 2024-04-07 17:47:59,965 basehttp 25708 4796 "GET /orders/1/all HTTP/1.1" 200 745
+INFO 2024-04-07 17:50:11,936 autoreload 3268 9996 Watching for file changes with StatReloader
+INFO 2024-04-07 17:50:14,993 basehttp 3268 22532 "GET /orders/1/all HTTP/1.1" 200 745
+WARNING 2024-04-07 17:50:18,308 log 3268 22532 Not Found: /orders/1
+WARNING 2024-04-07 17:50:18,310 basehttp 3268 22532 "GET /orders/1 HTTP/1.1" 404 2646
+WARNING 2024-04-07 17:50:19,087 log 3268 24340 Not Found: /orders/2
+WARNING 2024-04-07 17:50:19,088 basehttp 3268 24340 "GET /orders/2 HTTP/1.1" 404 2646
+INFO 2024-04-07 17:50:21,181 basehttp 3268 24340 "GET /orders/2/all HTTP/1.1" 200 190
+INFO 2024-04-07 17:52:13,927 autoreload 20280 332 Watching for file changes with StatReloader
+INFO 2024-04-07 17:52:16,580 basehttp 20280 15584 "GET /orders/2/all HTTP/1.1" 200 367
+INFO 2024-04-07 17:52:22,643 basehttp 20280 12040 "GET /orders/2/all HTTP/1.1" 200 367
+INFO 2024-04-07 17:56:06,301 views 20280 24016 Index page accessed
+INFO 2024-04-07 17:56:06,304 basehttp 20280 24016 "GET / HTTP/1.1" 200 2555
+WARNING 2024-04-07 17:56:15,202 log 20280 12164 Not Found: /orders/1
+WARNING 2024-04-07 17:56:15,204 basehttp 20280 12164 "GET /orders/1 HTTP/1.1" 404 2646
+INFO 2024-04-07 17:56:21,238 basehttp 20280 12248 "GET /orders/1/all HTTP/1.1" 200 781
+INFO 2024-04-07 18:00:27,344 basehttp 20280 25508 "GET /orders/1/all HTTP/1.1" 200 1111
+INFO 2024-04-07 18:00:47,135 basehttp 20280 25508 "GET /orders/1/year HTTP/1.1" 200 781
+INFO 2024-04-07 18:00:52,811 basehttp 20280 25508 "GET /orders/1/month HTTP/1.1" 200 781
+INFO 2024-04-07 18:00:56,568 basehttp 20280 25508 "GET /orders/1/month HTTP/1.1" 200 781
+INFO 2024-04-07 18:01:08,357 basehttp 20280 25508 "GET /orders/1/year HTTP/1.1" 200 781
+INFO 2024-04-07 18:01:11,885 basehttp 20280 25508 "GET /orders/1/year HTTP/1.1" 200 781
+INFO 2024-04-07 18:01:18,429 basehttp 20280 25508 "GET /orders/1/all HTTP/1.1" 200 1111
+INFO 2024-04-07 18:03:39,432 autoreload 20280 332 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 18:03:40,396 autoreload 4908 21736 Watching for file changes with StatReloader
+INFO 2024-04-07 18:03:49,059 basehttp 4908 22928 "GET /orders/1/month HTTP/1.1" 200 781
+INFO 2024-04-07 18:05:56,542 autoreload 4908 21736 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 18:05:57,162 autoreload 19440 10060 Watching for file changes with StatReloader
+INFO 2024-04-07 18:05:59,315 basehttp 19440 20184 "GET /orders/1/month HTTP/1.1" 200 781
+INFO 2024-04-07 18:06:52,433 basehttp 19440 25832 "GET /orders/1/year HTTP/1.1" 200 781
+INFO 2024-04-07 18:06:54,459 basehttp 19440 25832 "GET /orders/1/year HTTP/1.1" 200 781
+INFO 2024-04-07 18:09:30,179 autoreload 19440 10060 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 18:09:30,838 autoreload 22908 22312 Watching for file changes with StatReloader
+INFO 2024-04-07 18:09:31,145 basehttp 22908 11236 "GET /orders/1/year HTTP/1.1" 200 781
+INFO 2024-04-07 18:13:34,902 autoreload 22908 22312 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 18:13:35,553 autoreload 14356 4776 Watching for file changes with StatReloader
+INFO 2024-04-07 18:14:19,415 autoreload 14356 4776 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 18:14:19,970 autoreload 16640 3028 Watching for file changes with StatReloader
+INFO 2024-04-07 18:15:16,681 autoreload 16640 3028 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 18:15:17,301 autoreload 14192 3528 Watching for file changes with StatReloader
+INFO 2024-04-07 18:17:01,522 basehttp 14192 9744 "GET /orders/1/year HTTP/1.1" 200 781
+INFO 2024-04-07 18:17:27,077 autoreload 13452 16084 Watching for file changes with StatReloader
+INFO 2024-04-07 18:17:33,331 basehttp 13452 6832 "GET /orders/1/year HTTP/1.1" 200 781
+INFO 2024-04-07 18:22:39,288 autoreload 13452 16084 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 18:22:40,460 autoreload 18636 7140 Watching for file changes with StatReloader
+INFO 2024-04-07 18:22:56,592 autoreload 18636 7140 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 18:22:57,264 autoreload 9180 7996 Watching for file changes with StatReloader
+INFO 2024-04-07 18:22:58,281 basehttp 9180 26348 "GET /orders/1/year HTTP/1.1" 200 781
+INFO 2024-04-07 18:22:59,174 basehttp 9180 26348 "GET /orders/1/year HTTP/1.1" 200 781
+INFO 2024-04-07 18:22:59,774 basehttp 9180 26348 "GET /orders/1/year HTTP/1.1" 200 781
+INFO 2024-04-07 18:23:30,898 autoreload 9180 7996 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-07 18:23:31,550 autoreload 13600 22232 Watching for file changes with StatReloader
+INFO 2024-04-07 18:23:32,578 basehttp 13600 19544 "GET /orders/1/year HTTP/1.1" 200 1038
+INFO 2024-04-07 18:23:41,785 basehttp 13600 25572 "GET /orders/1/year HTTP/1.1" 200 1038
+INFO 2024-04-07 18:26:45,549 autoreload 2084 12624 Watching for file changes with StatReloader
+INFO 2024-04-07 18:26:45,715 basehttp 2084 5816 "GET /orders/1/year HTTP/1.1" 200 781
+INFO 2024-04-07 18:26:48,671 basehttp 2084 12560 "GET /orders/1/year HTTP/1.1" 200 781
+INFO 2024-04-07 18:26:50,501 basehttp 2084 12560 "GET /orders/1/year HTTP/1.1" 200 781
+INFO 2024-04-07 18:26:50,916 basehttp 2084 12560 "GET /orders/1/year HTTP/1.1" 200 781
+INFO 2024-04-07 18:26:51,104 basehttp 2084 12560 "GET /orders/1/year HTTP/1.1" 200 781
+INFO 2024-04-07 18:26:57,067 basehttp 2084 14208 "GET /orders/1/yall HTTP/1.1" 200 1111

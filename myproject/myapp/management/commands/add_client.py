@@ -6,7 +6,7 @@ class Command(BaseCommand):
     help = 'Add Client'
 
     def handle(self, *args, **options):
-        client = Client(name='Peter', email='peter@test.com',
+        client = Client(name='Den', email='den@test.com',
                         phone='777-888', address='Almaty')
         client.save()
         self.stdout.write(f'{client} created')
