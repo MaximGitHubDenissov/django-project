@@ -25,8 +25,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
-      <object connection-id="413facb5-a74f-45aa-ae1e-4d0795eb9fb5" object-ref="schemas/main/tables/myapp_enrollment" />
-      <object connection-id="413facb5-a74f-45aa-ae1e-4d0795eb9fb5" object-ref="schemas/main/tables/myapp_order" />
+      <object connection-id="413facb5-a74f-45aa-ae1e-4d0795eb9fb5" object-ref="schemas/main/tables/myapp_product" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
@@ -113,6 +112,7 @@
           <debugger-type value="JDBC" />
         </debugger>
         <object-filters hide-empty-schemas="false" hide-pseudo-columns="false" hide-audit-columns="false">
+          <object-filters />
           <object-type-filter use-master-settings="true">
             <object-type name="SCHEMA" enabled="true" />
             <object-type name="USER" enabled="true" />
@@ -140,7 +140,6 @@
             <object-type name="CLUSTER" enabled="true" />
             <object-type name="DBLINK" enabled="true" />
           </object-type-filter>
-          <object-name-filters />
         </object-filters>
       </connection>
     </connections>
