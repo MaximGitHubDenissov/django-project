@@ -1468,3 +1468,346 @@ INFO 2024-04-12 17:14:04,575 basehttp 3132 5836 "GET /add_product HTTP/1.1" 200 
 INFO 2024-04-12 17:14:23,174 views 3132 15344 Создан новый продукт 213 
 INFO 2024-04-12 17:14:23,180 basehttp 3132 15344 "POST /add_product HTTP/1.1" 200 4507
 INFO 2024-04-12 17:14:23,390 basehttp 3132 15344 "GET /media/images/kefir_IMfcNnx.jpeg HTTP/1.1" 200 9216
+INFO 2024-04-12 17:57:06,297 basehttp 3132 2152 "GET / HTTP/1.1" 200 2494
+INFO 2024-04-12 17:57:10,328 basehttp 3132 2152 "GET /add_product HTTP/1.1" 200 4339
+INFO 2024-04-12 17:57:12,954 basehttp 3132 18272 "GET /admin HTTP/1.1" 301 0
+INFO 2024-04-12 17:57:13,016 basehttp 3132 6452 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-12 17:57:13,193 basehttp 3132 6452 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-04-12 17:57:13,240 basehttp 3132 6452 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-04-12 17:57:13,245 basehttp 3132 12788 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-04-12 17:57:13,251 basehttp 3132 10432 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-04-12 17:57:13,251 basehttp 3132 3540 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-04-12 17:57:13,252 basehttp 3132 7176 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-04-12 17:57:13,261 basehttp 3132 9616 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-04-12 17:57:13,278 basehttp 3132 12788 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-04-14 07:55:58,492 autoreload 19988 16112 Watching for file changes with StatReloader
+INFO 2024-04-14 07:59:05,449 basehttp 19988 5936 "GET / HTTP/1.1" 200 2494
+WARNING 2024-04-14 07:59:06,578 log 19988 5936 Not Found: /favicon.ico
+WARNING 2024-04-14 07:59:06,579 basehttp 19988 5936 "GET /favicon.ico HTTP/1.1" 404 3019
+INFO 2024-04-14 07:59:09,884 basehttp 19988 5936 "GET /add_product HTTP/1.1" 200 4339
+INFO 2024-04-14 07:59:12,511 basehttp 19988 11452 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-14 07:59:12,713 basehttp 19988 11452 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-04-14 07:59:12,757 basehttp 19988 11452 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-14 07:59:12,761 basehttp 19988 17832 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-14 07:59:12,769 basehttp 19988 19848 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2024-04-14 07:59:12,777 basehttp 19988 2884 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-14 07:59:12,780 basehttp 19988 21080 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-14 07:59:12,781 basehttp 19988 11452 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-14 07:59:12,782 basehttp 19988 6452 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-14 07:59:23,178 basehttp 19988 19692 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-14 07:59:23,226 basehttp 19988 19692 "GET /admin/ HTTP/1.1" 200 7445
+INFO 2024-04-14 07:59:23,473 basehttp 19988 19692 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-04-14 07:59:23,493 basehttp 19988 19692 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-04-14 07:59:23,496 basehttp 19988 18860 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-04-14 07:59:39,054 basehttp 19988 1280 "GET /admin/myapp/client/ HTTP/1.1" 200 9852
+INFO 2024-04-14 07:59:39,106 basehttp 19988 12872 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-14 07:59:39,115 basehttp 19988 5528 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-04-14 07:59:39,118 basehttp 19988 5680 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-04-14 07:59:39,121 basehttp 19988 14196 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-04-14 07:59:39,122 basehttp 19988 12872 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-04-14 07:59:39,123 basehttp 19988 15856 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-04-14 07:59:39,126 basehttp 19988 1280 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-04-14 07:59:39,140 basehttp 19988 5528 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-04-14 07:59:39,159 basehttp 19988 14196 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-04-14 07:59:39,171 basehttp 19988 15856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 07:59:39,243 basehttp 19988 1280 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-04-14 07:59:39,286 basehttp 19988 14196 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-04-14 07:59:42,751 basehttp 19988 1452 "GET /admin/myapp/product/ HTTP/1.1" 200 14470
+INFO 2024-04-14 07:59:42,790 basehttp 19988 1452 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 07:59:44,929 basehttp 19988 1452 "GET /admin/myapp/product/18/change/ HTTP/1.1" 200 11995
+INFO 2024-04-14 07:59:44,978 basehttp 19988 17372 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-04-14 07:59:44,983 basehttp 19988 1452 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-04-14 07:59:44,989 basehttp 19988 11752 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 07:59:45,004 basehttp 19988 11752 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-04-14 07:59:45,004 basehttp 19988 1452 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-04-14 08:12:02,700 basehttp 19988 13720 "GET /admin/myapp/order/ HTTP/1.1" 200 10957
+INFO 2024-04-14 08:12:02,767 basehttp 19988 13720 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:12:05,313 basehttp 19988 13720 "GET /admin/myapp/enrollment/ HTTP/1.1" 200 11680
+INFO 2024-04-14 08:12:05,354 basehttp 19988 13720 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:12:09,542 basehttp 19988 21068 "GET /admin/myapp/enrollment/add/ HTTP/1.1" 200 13519
+INFO 2024-04-14 08:12:09,598 basehttp 19988 21068 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:12:09,602 basehttp 19988 12492 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-04-14 08:15:56,386 basehttp 19988 13896 "GET /admin/myapp/product/ HTTP/1.1" 200 14470
+INFO 2024-04-14 08:15:56,437 basehttp 19988 13896 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:16:07,408 basehttp 19988 7068 "GET /admin/myapp/product/add/ HTTP/1.1" 200 11592
+INFO 2024-04-14 08:16:07,456 basehttp 19988 7068 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:16:30,479 basehttp 19988 14068 "GET /admin/auth/user/ HTTP/1.1" 200 12136
+INFO 2024-04-14 08:16:30,531 basehttp 19988 14068 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-04-14 08:16:30,531 basehttp 19988 18256 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-04-14 08:16:30,541 basehttp 19988 18032 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:16:30,574 basehttp 19988 18032 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-04-14 08:16:38,848 basehttp 19988 20764 "GET /admin/auth/group/add/ HTTP/1.1" 200 13336
+INFO 2024-04-14 08:16:38,898 basehttp 19988 1636 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+INFO 2024-04-14 08:16:38,904 basehttp 19988 20764 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2024-04-14 08:16:38,908 basehttp 19988 16108 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:16:38,967 basehttp 19988 1636 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2024-04-14 08:16:38,970 basehttp 19988 16108 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2024-04-14 08:16:38,972 basehttp 19988 20764 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2024-04-14 08:17:45,498 basehttp 19988 17900 "GET /admin/myapp/enrollment/ HTTP/1.1" 200 11680
+INFO 2024-04-14 08:17:45,554 basehttp 19988 17900 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:17:48,335 basehttp 19988 21372 "GET /admin/myapp/enrollment/add/ HTTP/1.1" 200 13519
+INFO 2024-04-14 08:17:48,377 basehttp 19988 21372 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:20:27,613 basehttp 19988 11388 "GET /admin/myapp/client/ HTTP/1.1" 200 9852
+INFO 2024-04-14 08:20:27,667 basehttp 19988 11388 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:23:02,467 autoreload 19988 16112 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\models.py changed, reloading.
+INFO 2024-04-14 08:23:04,296 autoreload 18092 15812 Watching for file changes with StatReloader
+INFO 2024-04-14 08:23:14,067 autoreload 18092 15812 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\models.py changed, reloading.
+INFO 2024-04-14 08:23:14,927 autoreload 4644 14888 Watching for file changes with StatReloader
+INFO 2024-04-14 08:23:21,037 basehttp 4644 1196 "GET /admin/myapp/client/ HTTP/1.1" 200 9852
+INFO 2024-04-14 08:23:21,086 basehttp 4644 1196 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:23:24,130 basehttp 4644 2220 "GET /admin/myapp/order/ HTTP/1.1" 200 10969
+INFO 2024-04-14 08:23:24,172 basehttp 4644 2220 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:23:28,295 basehttp 4644 2220 "GET /admin/myapp/product/ HTTP/1.1" 200 14120
+INFO 2024-04-14 08:23:28,338 basehttp 4644 2220 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:23:32,666 basehttp 4644 19640 "GET /admin/myapp/enrollment/ HTTP/1.1" 200 11776
+INFO 2024-04-14 08:23:32,710 basehttp 4644 19640 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:23:35,680 basehttp 4644 19640 "GET /admin/myapp/enrollment/8/change/ HTTP/1.1" 200 13626
+INFO 2024-04-14 08:23:35,728 basehttp 4644 19640 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:26:25,737 basehttp 4644 15116 "GET /admin/myapp/client/ HTTP/1.1" 200 9852
+INFO 2024-04-14 08:26:25,791 basehttp 4644 15116 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:26:27,951 basehttp 4644 18492 "GET /admin/myapp/order/ HTTP/1.1" 200 10969
+INFO 2024-04-14 08:26:28,006 basehttp 4644 18492 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:26:29,737 basehttp 4644 18492 "GET /admin/myapp/product/ HTTP/1.1" 200 14120
+INFO 2024-04-14 08:26:29,777 basehttp 4644 18492 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:26:35,079 basehttp 4644 21140 "GET /admin/myapp/product/12/change/ HTTP/1.1" 200 12057
+INFO 2024-04-14 08:26:35,119 basehttp 4644 21140 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:26:50,129 basehttp 4644 15516 "GET /admin/myapp/product/ HTTP/1.1" 200 14120
+INFO 2024-04-14 08:26:50,200 basehttp 4644 15516 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:27:21,966 basehttp 4644 9624 "GET /admin/myapp/product/ HTTP/1.1" 200 14120
+INFO 2024-04-14 08:27:22,002 basehttp 4644 9624 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:27:33,782 basehttp 4644 17588 "GET /admin/myapp/client/ HTTP/1.1" 200 9852
+INFO 2024-04-14 08:27:33,817 basehttp 4644 17588 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:27:37,333 basehttp 4644 17588 "GET /admin/myapp/product/ HTTP/1.1" 200 14120
+INFO 2024-04-14 08:27:37,371 basehttp 4644 17588 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:27:50,647 basehttp 4644 19688 "POST /admin/myapp/product/ HTTP/1.1" 200 8361
+INFO 2024-04-14 08:27:50,898 basehttp 4644 19688 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2024-04-14 08:27:52,617 basehttp 4644 19688 "GET /admin/myapp/product/ HTTP/1.1" 200 14120
+INFO 2024-04-14 08:28:01,062 basehttp 4644 10584 "POST /admin/myapp/product/ HTTP/1.1" 200 10057
+INFO 2024-04-14 08:28:04,451 basehttp 4644 10584 "POST /admin/myapp/product/ HTTP/1.1" 302 0
+INFO 2024-04-14 08:28:04,511 basehttp 4644 10584 "GET /admin/myapp/product/ HTTP/1.1" 200 10743
+INFO 2024-04-14 08:28:04,589 basehttp 4644 10584 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:28:09,212 basehttp 4644 5360 "GET /admin/myapp/product/18/change/ HTTP/1.1" 200 11947
+INFO 2024-04-14 08:28:09,260 basehttp 4644 5360 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:28:21,210 basehttp 4644 4304 "POST /admin/myapp/product/18/change/ HTTP/1.1" 302 0
+INFO 2024-04-14 08:28:21,281 basehttp 4644 4304 "GET /admin/myapp/product/ HTTP/1.1" 200 10824
+INFO 2024-04-14 08:28:21,324 basehttp 4644 4304 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 08:29:47,417 autoreload 4644 14888 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:29:48,708 autoreload 11616 19228 Watching for file changes with StatReloader
+INFO 2024-04-14 08:30:03,718 autoreload 11616 19228 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:30:05,119 autoreload 808 16840 Watching for file changes with StatReloader
+INFO 2024-04-14 08:30:14,931 autoreload 808 16840 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:30:15,674 autoreload 10892 19528 Watching for file changes with StatReloader
+INFO 2024-04-14 08:30:26,414 autoreload 10892 19528 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:30:27,123 autoreload 1784 20820 Watching for file changes with StatReloader
+INFO 2024-04-14 08:30:56,594 autoreload 1784 20820 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:30:57,376 autoreload 7852 14068 Watching for file changes with StatReloader
+INFO 2024-04-14 08:31:29,502 autoreload 7852 14068 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:31:30,372 autoreload 15528 1228 Watching for file changes with StatReloader
+INFO 2024-04-14 08:37:43,394 autoreload 15528 1228 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:37:44,573 autoreload 6356 15868 Watching for file changes with StatReloader
+INFO 2024-04-14 08:37:53,222 autoreload 6356 15868 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:37:53,922 autoreload 17276 3760 Watching for file changes with StatReloader
+INFO 2024-04-14 08:37:59,653 autoreload 17276 3760 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:38:00,412 autoreload 13468 12884 Watching for file changes with StatReloader
+INFO 2024-04-14 08:38:29,360 autoreload 13468 12884 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:38:30,157 autoreload 11052 20036 Watching for file changes with StatReloader
+INFO 2024-04-14 08:38:35,034 autoreload 11052 20036 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:38:35,885 autoreload 12320 1576 Watching for file changes with StatReloader
+INFO 2024-04-14 08:38:41,712 autoreload 12320 1576 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:38:42,533 autoreload 1620 17096 Watching for file changes with StatReloader
+INFO 2024-04-14 08:39:02,002 autoreload 1620 17096 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:39:02,709 autoreload 13868 14312 Watching for file changes with StatReloader
+INFO 2024-04-14 08:39:18,998 autoreload 13868 14312 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:39:19,710 autoreload 12256 5724 Watching for file changes with StatReloader
+INFO 2024-04-14 08:39:33,900 autoreload 12256 5724 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:39:34,591 autoreload 3976 13416 Watching for file changes with StatReloader
+INFO 2024-04-14 08:40:33,250 autoreload 3976 13416 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:40:34,379 autoreload 20204 19584 Watching for file changes with StatReloader
+INFO 2024-04-14 08:40:57,789 autoreload 20204 19584 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:40:58,572 autoreload 14048 14704 Watching for file changes with StatReloader
+INFO 2024-04-14 08:41:10,338 autoreload 14048 14704 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:41:11,372 autoreload 16212 13484 Watching for file changes with StatReloader
+INFO 2024-04-14 08:41:18,389 autoreload 16212 13484 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 08:41:19,269 autoreload 17468 12348 Watching for file changes with StatReloader
+INFO 2024-04-14 08:41:27,512 basehttp 17468 6816 "GET /admin/myapp/product/ HTTP/1.1" 200 12258
+INFO 2024-04-14 08:41:27,596 basehttp 17468 6816 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2024-04-14 08:41:27,673 log 17468 9660 Not Found: /media/no_image
+WARNING 2024-04-14 08:41:27,675 basehttp 17468 9660 "GET /media/no_image HTTP/1.1" 404 3248
+INFO 2024-04-14 08:41:27,864 basehttp 17468 6816 "GET /media/images/kefir_IMfcNnx.jpeg HTTP/1.1" 200 9216
+INFO 2024-04-14 09:03:08,301 autoreload 17468 12348 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 09:03:10,162 autoreload 3672 300 Watching for file changes with StatReloader
+INFO 2024-04-14 09:03:41,003 basehttp 3672 20476 "GET /admin/myapp/product/ HTTP/1.1" 200 12499
+INFO 2024-04-14 09:03:41,070 basehttp 3672 20476 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2024-04-14 09:03:41,102 log 3672 20476 Not Found: /media/no_image
+WARNING 2024-04-14 09:03:41,104 basehttp 3672 20476 "GET /media/no_image HTTP/1.1" 404 3248
+WARNING 2024-04-14 09:03:41,145 log 3672 20476 Not Found: /media/no_image
+WARNING 2024-04-14 09:03:41,146 basehttp 3672 20476 "GET /media/no_image HTTP/1.1" 404 3248
+INFO 2024-04-14 09:03:43,780 basehttp 3672 15628 "GET /admin/myapp/product/?o=4 HTTP/1.1" 200 12652
+INFO 2024-04-14 09:03:43,825 basehttp 3672 15628 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2024-04-14 09:03:43,833 log 3672 1792 Not Found: /media/no_image
+WARNING 2024-04-14 09:03:43,834 basehttp 3672 1792 "GET /media/no_image HTTP/1.1" 404 3248
+WARNING 2024-04-14 09:03:43,867 log 3672 1792 Not Found: /media/no_image
+WARNING 2024-04-14 09:03:43,867 basehttp 3672 1792 "GET /media/no_image HTTP/1.1" 404 3248
+INFO 2024-04-14 09:03:44,908 basehttp 3672 1792 "GET /admin/myapp/product/?o=-4 HTTP/1.1" 200 12661
+INFO 2024-04-14 09:03:44,959 basehttp 3672 1792 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2024-04-14 09:03:44,965 log 3672 15628 Not Found: /media/no_image
+WARNING 2024-04-14 09:03:44,966 basehttp 3672 15628 "GET /media/no_image HTTP/1.1" 404 3248
+INFO 2024-04-14 09:05:38,471 basehttp 3672 1576 "GET /admin/myapp/order/ HTTP/1.1" 200 10969
+INFO 2024-04-14 09:05:38,516 basehttp 3672 1576 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 09:05:45,304 basehttp 3672 1576 "GET /admin/myapp/product/ HTTP/1.1" 200 12499
+INFO 2024-04-14 09:05:45,352 basehttp 3672 1576 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2024-04-14 09:05:45,360 log 3672 17800 Not Found: /media/no_image
+WARNING 2024-04-14 09:05:45,361 basehttp 3672 17800 "GET /media/no_image HTTP/1.1" 404 3248
+WARNING 2024-04-14 09:05:45,380 log 3672 17800 Not Found: /media/no_image
+WARNING 2024-04-14 09:05:45,381 basehttp 3672 17800 "GET /media/no_image HTTP/1.1" 404 3248
+INFO 2024-04-14 09:05:47,141 basehttp 3672 20188 "GET /admin/myapp/order/ HTTP/1.1" 200 10969
+INFO 2024-04-14 09:05:47,182 basehttp 3672 20188 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 09:05:47,752 basehttp 3672 20188 "GET /admin/myapp/enrollment/ HTTP/1.1" 200 11776
+INFO 2024-04-14 09:05:47,793 basehttp 3672 20188 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 09:05:49,199 basehttp 3672 20188 "GET /admin/myapp/order/ HTTP/1.1" 200 10969
+INFO 2024-04-14 09:05:49,245 basehttp 3672 20188 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 09:05:51,340 basehttp 3672 20188 "GET /admin/myapp/client/ HTTP/1.1" 200 9852
+INFO 2024-04-14 09:05:51,379 basehttp 3672 20188 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 09:05:53,744 basehttp 3672 20188 "GET /admin/myapp/order/ HTTP/1.1" 200 10969
+INFO 2024-04-14 09:05:53,784 basehttp 3672 20188 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 09:06:04,907 basehttp 3672 21144 "GET /admin/myapp/enrollment/ HTTP/1.1" 200 11776
+INFO 2024-04-14 09:06:04,949 basehttp 3672 21144 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 09:06:06,874 basehttp 3672 1964 "GET /admin/myapp/enrollment/8/change/ HTTP/1.1" 200 13092
+INFO 2024-04-14 09:06:06,928 basehttp 3672 1964 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 09:07:55,297 autoreload 3672 300 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 09:07:56,427 autoreload 17264 7212 Watching for file changes with StatReloader
+INFO 2024-04-14 09:08:00,674 basehttp 17264 13276 "GET /admin/myapp/enrollment/8/change/ HTTP/1.1" 200 13092
+INFO 2024-04-14 09:08:00,717 basehttp 17264 13276 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 09:08:02,028 basehttp 17264 17696 "GET /admin/myapp/product/ HTTP/1.1" 200 12978
+INFO 2024-04-14 09:08:02,073 basehttp 17264 17696 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2024-04-14 09:08:02,094 log 17264 5308 Not Found: /media/no_image
+WARNING 2024-04-14 09:08:02,095 basehttp 17264 5308 "GET /media/no_image HTTP/1.1" 404 3248
+INFO 2024-04-14 09:08:21,975 autoreload 17264 7212 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 09:08:22,827 autoreload 1296 19648 Watching for file changes with StatReloader
+INFO 2024-04-14 09:08:25,662 basehttp 1296 12988 "GET /admin/myapp/product/ HTTP/1.1" 200 12964
+INFO 2024-04-14 09:08:25,717 basehttp 1296 12988 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2024-04-14 09:08:25,723 log 1296 11800 Not Found: /media/no_image
+WARNING 2024-04-14 09:08:25,724 basehttp 1296 11800 "GET /media/no_image HTTP/1.1" 404 3248
+WARNING 2024-04-14 09:08:25,747 log 1296 11800 Not Found: /media/no_image
+WARNING 2024-04-14 09:08:25,748 basehttp 1296 11800 "GET /media/no_image HTTP/1.1" 404 3248
+INFO 2024-04-14 09:08:38,139 basehttp 1296 10096 "GET /admin/myapp/product/?q=%D0%BA%D0%B5%D1%84%D0%B8%D1%80 HTTP/1.1" 200 9464
+INFO 2024-04-14 09:08:38,218 basehttp 1296 10096 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 09:08:52,867 basehttp 1296 3840 "GET /admin/myapp/product/?q=%D0%9A%D0%B5%D1%84%D0%B8%D1%80 HTTP/1.1" 200 11537
+INFO 2024-04-14 09:08:52,908 basehttp 1296 3840 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 09:09:34,966 basehttp 1296 1164 "GET /admin/myapp/product/?q=%D0%9A%D0%B5 HTTP/1.1" 200 11363
+INFO 2024-04-14 09:09:35,014 basehttp 1296 1164 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 09:09:41,104 basehttp 1296 1164 "GET /admin/myapp/product/?q=T HTTP/1.1" 200 11217
+INFO 2024-04-14 09:09:41,157 basehttp 1296 1164 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2024-04-14 09:09:41,160 log 1296 1336 Not Found: /media/no_image
+WARNING 2024-04-14 09:09:41,161 basehttp 1296 1336 "GET /media/no_image HTTP/1.1" 404 3248
+INFO 2024-04-14 09:09:47,198 basehttp 1296 21136 "GET /admin/myapp/product/? HTTP/1.1" 200 12964
+INFO 2024-04-14 09:09:47,245 basehttp 1296 21136 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2024-04-14 09:09:47,248 log 1296 3228 Not Found: /media/no_image
+WARNING 2024-04-14 09:09:47,249 basehttp 1296 3228 "GET /media/no_image HTTP/1.1" 404 3248
+WARNING 2024-04-14 09:09:47,278 log 1296 3228 Not Found: /media/no_image
+WARNING 2024-04-14 09:09:47,280 basehttp 1296 3228 "GET /media/no_image HTTP/1.1" 404 3248
+INFO 2024-04-14 09:52:27,046 autoreload 1296 19648 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 09:52:28,589 autoreload 9840 120 Watching for file changes with StatReloader
+INFO 2024-04-14 09:58:25,938 autoreload 9840 120 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 09:58:26,709 autoreload 7924 1176 Watching for file changes with StatReloader
+INFO 2024-04-14 10:02:59,994 autoreload 7924 1176 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 10:03:01,103 autoreload 17888 13192 Watching for file changes with StatReloader
+INFO 2024-04-14 10:03:43,042 autoreload 14092 19472 Watching for file changes with StatReloader
+INFO 2024-04-14 10:06:04,262 autoreload 12692 17996 Watching for file changes with StatReloader
+INFO 2024-04-14 10:06:22,532 autoreload 6828 15560 Watching for file changes with StatReloader
+INFO 2024-04-14 10:17:03,358 autoreload 14820 8696 Watching for file changes with StatReloader
+INFO 2024-04-14 10:18:28,609 autoreload 14820 8696 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 10:18:29,353 autoreload 10680 11448 Watching for file changes with StatReloader
+INFO 2024-04-14 10:18:38,107 basehttp 10680 14748 "GET / HTTP/1.1" 200 2494
+INFO 2024-04-14 10:18:42,355 basehttp 10680 20380 "GET /add_product HTTP/1.1" 200 4339
+INFO 2024-04-14 10:18:46,949 basehttp 10680 20380 "GET /admin/ HTTP/1.1" 200 10177
+INFO 2024-04-14 10:18:47,188 basehttp 10680 20380 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2024-04-14 10:18:52,169 basehttp 10680 11212 "GET /admin/myapp/order/ HTTP/1.1" 200 12490
+INFO 2024-04-14 10:18:52,239 basehttp 10680 11212 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 10:19:39,838 basehttp 10680 13192 "GET /admin/myapp/order/ HTTP/1.1" 200 12490
+INFO 2024-04-14 10:19:39,884 basehttp 10680 13192 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 10:21:56,028 autoreload 10680 11448 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\models.py changed, reloading.
+INFO 2024-04-14 10:21:56,774 autoreload 18488 11296 Watching for file changes with StatReloader
+INFO 2024-04-14 10:22:00,520 basehttp 18488 12412 "GET /admin/myapp/order/ HTTP/1.1" 200 12618
+INFO 2024-04-14 10:22:00,561 basehttp 18488 12412 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 10:28:31,232 autoreload 18488 11296 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\models.py changed, reloading.
+INFO 2024-04-14 10:28:32,001 autoreload 6612 14136 Watching for file changes with StatReloader
+INFO 2024-04-14 10:28:37,092 basehttp 6612 2084 "GET /admin/myapp/order/ HTTP/1.1" 200 12455
+INFO 2024-04-14 10:28:37,138 basehttp 6612 2084 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 10:31:36,961 autoreload 6612 14136 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\models.py changed, reloading.
+INFO 2024-04-14 10:31:37,649 autoreload 10892 14896 Watching for file changes with StatReloader
+INFO 2024-04-14 10:31:42,055 basehttp 10892 20444 "GET /admin/myapp/order/ HTTP/1.1" 200 12048
+INFO 2024-04-14 10:31:42,113 basehttp 10892 20444 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 10:33:38,319 autoreload 10892 14896 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\models.py changed, reloading.
+INFO 2024-04-14 10:33:39,036 autoreload 8820 6792 Watching for file changes with StatReloader
+INFO 2024-04-14 10:33:42,815 basehttp 8820 19668 "GET /admin/myapp/order/ HTTP/1.1" 200 12069
+INFO 2024-04-14 10:33:42,865 basehttp 8820 19668 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-14 10:36:41,045 autoreload 8820 6792 C:\Users\77017\PycharmProjects\django-project\myproject\myapp\admin.py changed, reloading.
+INFO 2024-04-14 10:36:41,900 autoreload 4848 17672 Watching for file changes with StatReloader
+INFO 2024-04-17 08:24:40,136 autoreload 9416 8644 Watching for file changes with StatReloader
+INFO 2024-04-17 08:24:42,666 basehttp 9416 14076 "GET / HTTP/1.1" 200 2494
+INFO 2024-04-17 08:24:48,570 basehttp 9416 14076 "GET /add_product HTTP/1.1" 200 4339
+INFO 2024-04-17 08:25:29,689 views 9416 6320 Создан новый продукт Сырок 
+INFO 2024-04-17 08:25:29,702 basehttp 9416 6320 "POST /add_product HTTP/1.1" 200 4537
+INFO 2024-04-17 08:25:30,138 basehttp 9416 6320 "GET /media/images/sirok.jpeg HTTP/1.1" 200 5739
+INFO 2024-04-17 08:27:16,427 basehttp 9416 7056 "GET / HTTP/1.1" 200 2494
+INFO 2024-04-17 08:27:24,441 basehttp 9416 7056 "GET /add_product HTTP/1.1" 200 4339
+INFO 2024-04-17 08:27:27,622 basehttp 9416 10732 "GET /admin/ HTTP/1.1" 200 10177
+INFO 2024-04-17 08:27:27,738 basehttp 9416 25224 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:27,739 basehttp 9416 10732 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:27,739 basehttp 9416 11528 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:27,763 basehttp 9416 11528 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:27,767 basehttp 9416 10732 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:27,768 basehttp 9416 25224 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:27,777 basehttp 9416 25224 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:27,807 basehttp 9416 10732 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:27,808 basehttp 9416 25224 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:27,809 basehttp 9416 11528 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:32,894 basehttp 9416 11528 "GET /admin/myapp/product/ HTTP/1.1" 200 13151
+INFO 2024-04-17 08:27:32,967 basehttp 9416 10732 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:32,969 basehttp 9416 19104 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:32,969 basehttp 9416 15612 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:32,969 basehttp 9416 11528 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:32,970 basehttp 9416 6124 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:32,975 basehttp 9416 19104 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:32,975 basehttp 9416 10732 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:32,988 basehttp 9416 25224 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-17 08:27:33,023 basehttp 9416 11528 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:33,023 basehttp 9416 15612 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:33,088 basehttp 9416 15612 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:33,100 basehttp 9416 15612 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:33,101 basehttp 9416 11528 "GET /media/images/sirok.jpeg HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:33,117 basehttp 9416 15612 "GET /media/images/kefir_IMfcNnx.jpeg HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:33,119 basehttp 9416 10732 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2024-04-17 08:27:33,119 basehttp 9416 25224 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+WARNING 2024-04-17 08:27:33,209 log 9416 11528 Not Found: /media/no_image
+WARNING 2024-04-17 08:27:33,211 basehttp 9416 11528 "GET /media/no_image HTTP/1.1" 404 3248
+INFO 2024-04-17 08:28:02,332 basehttp 9416 26420 "GET /admin/myapp/order/ HTTP/1.1" 200 12069
+INFO 2024-04-17 08:28:02,370 basehttp 9416 26420 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-17 08:28:08,263 basehttp 9416 25060 "GET /admin/myapp/client/ HTTP/1.1" 200 9548
+INFO 2024-04-17 08:28:08,297 basehttp 9416 25060 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-17 08:28:14,620 basehttp 9416 25060 "GET /admin/myapp/order/ HTTP/1.1" 200 12069
+INFO 2024-04-17 08:28:14,656 basehttp 9416 25060 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-17 08:35:24,770 basehttp 9416 10968 "GET /admin/myapp/client/ HTTP/1.1" 200 9548
+INFO 2024-04-17 08:35:24,877 basehttp 9416 10968 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-17 08:35:26,995 basehttp 9416 10968 "GET /admin/myapp/client/2/change/ HTTP/1.1" 200 10925
+INFO 2024-04-17 08:35:27,048 basehttp 9416 10968 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2024-04-17 08:35:27,055 basehttp 9416 10632 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2024-04-17 08:35:27,061 basehttp 9416 6668 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-17 08:35:27,067 basehttp 9416 10632 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2024-04-17 08:35:27,075 basehttp 9416 6668 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2024-04-17 08:35:33,644 basehttp 9416 6428 "GET /admin/myapp/order/ HTTP/1.1" 200 12069
+INFO 2024-04-17 08:35:33,692 basehttp 9416 6428 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-17 08:36:07,286 basehttp 9416 23476 "GET /admin/myapp/product/ HTTP/1.1" 200 13151
+INFO 2024-04-17 08:36:07,344 basehttp 9416 23476 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-17 08:36:07,345 basehttp 9416 26224 "GET /media/images/sirok.jpeg HTTP/1.1" 304 0
+WARNING 2024-04-17 08:36:07,379 log 9416 26224 Not Found: /media/no_image
+WARNING 2024-04-17 08:36:07,380 basehttp 9416 26224 "GET /media/no_image HTTP/1.1" 404 3248
+INFO 2024-04-17 08:36:12,438 basehttp 9416 6324 "GET /admin/myapp/client/ HTTP/1.1" 200 9548
+INFO 2024-04-17 08:36:12,475 basehttp 9416 6324 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-17 08:36:14,421 basehttp 9416 6324 "GET /admin/auth/user/ HTTP/1.1" 200 11832
+INFO 2024-04-17 08:36:14,466 basehttp 9416 23292 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2024-04-17 08:36:14,467 basehttp 9416 6324 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-17 08:36:14,494 basehttp 9416 6324 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2024-04-17 08:36:18,058 basehttp 9416 6324 "GET /admin/auth/group/ HTTP/1.1" 200 8330
+INFO 2024-04-17 08:36:18,092 basehttp 9416 6324 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
