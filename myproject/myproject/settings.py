@@ -26,7 +26,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    ' maximdenissov.pythonanywhere.com',
+    'maximdenissov.pythonanywhere.com',
 ]
 
 # Application definition
