@@ -1811,3 +1811,10 @@ INFO 2024-04-17 08:36:14,467 basehttp 9416 6324 "GET /admin/jsi18n/ HTTP/1.1" 20
 INFO 2024-04-17 08:36:14,494 basehttp 9416 6324 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
 INFO 2024-04-17 08:36:18,058 basehttp 9416 6324 "GET /admin/auth/group/ HTTP/1.1" 200 8330
 INFO 2024-04-17 08:36:18,092 basehttp 9416 6324 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-19 11:46:30,795 autoreload 9828 12096 Watching for file changes with StatReloader
+INFO 2024-04-19 11:46:38,027 basehttp 9828 18912 "GET / HTTP/1.1" 200 2494
+INFO 2024-04-19 11:46:43,392 basehttp 9828 18912 "GET /add_product HTTP/1.1" 200 4339
+INFO 2024-04-19 11:48:36,556 autoreload 9828 12096 C:\Users\77017\PycharmProjects\django-project\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-19 11:48:37,588 autoreload 16996 13712 Watching for file changes with StatReloader
+INFO 2024-04-19 11:48:57,992 autoreload 16996 13712 C:\Users\77017\PycharmProjects\django-project\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-19 11:48:58,595 autoreload 4908 12044 Watching for file changes with StatReloader
